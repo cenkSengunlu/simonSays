@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="kutu">
+
+    <aside>
+      <p id="level">1. Seviye</p>
+      <button id="myBtn">Başla</button>
+      <p id="timerContainer" style="text-align:center; font-size:16px; display:none; font-weight:500;">Sonraki Seviye İçin: <span id="timer"></span></p>
+    </aside>
+    <div class="board">
+      <div class="box">
+        <div>
+              <div id="green" class="panel top-left-panel"></div>
+              <div id="red" class="panel top-right-panel"></div>
+          </div>
+          
+          <div>
+              <div id="yellow" class="panel bottom-left-panel"></div>
+              <div id="blue" class="panel bottom-right-panel"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
